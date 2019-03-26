@@ -81,8 +81,13 @@ General
 	margin: 0 auto;
 }
 
+h2 {
+	font-size: 20px;
+}
+
 hr {
 	margin: 30px 0;
+	border: 0.5px solid black;
 }
 
 
@@ -104,6 +109,16 @@ Navigation
 	text-decoration: none;
 	align-self: center;
 	color: grey;
+	font-size: 14px;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+	border-bottom: 2px solid black;
+}
+
+.nav-menu {
+	opacity: 0.6;
 }
 
 
@@ -181,7 +196,6 @@ top-content
 
 
 
-
 /***************
 **************** 
 
@@ -242,6 +256,19 @@ footer {
 	font-size: 12px;
 }
 
+
+/***************************************************
+****************************************************
+****************************************************
+****************************************************
+
+Services
+
+****************************************************
+****************************************************
+****************************************************
+**************************************************** */
+
 /***************
 **************** 
 
@@ -253,6 +280,8 @@ hero-img
 .hero-img img {
 	margin-top: 20px;
 }
+
+
 
 /***************
 **************** 
@@ -269,6 +298,7 @@ services-content
 }
 
 
+
 /***************
 **************** 
 
@@ -276,6 +306,7 @@ Cards
 
 **************** 
 **************** */
+
 .cards {
 	display: flex;	
 	justify-content: space-between;
@@ -284,16 +315,19 @@ Cards
 
 .card-layout {
 	background-color: #F4F3F4;
-	border: 1px solid #B1B2B1;
+	border: 1px solid #000;
 	width: 48%;
 	padding: 20px;
 }
 
 .card-layout button {
-	border: 1px solid #B1B2B1;
-	padding: 5px 15px;
+	border: 1px solid #000;
+	padding: 10px 40px;
 	margin-top: 15px;
+	border-radius: 5px;
 }
+
+
 
 /***************
 **************** 
@@ -318,8 +352,6 @@ bottom-content-services
 	margin: 15px 0 0 18px;
 	font-size: 14px;
 }
-
-
 
 .services-info-img {
 	width: 48%;

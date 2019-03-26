@@ -76,8 +76,14 @@ General
 **************** */
 
 
+.container {
+	width:	876px;
+	margin: 0 auto;
+}
 
-
+hr {
+	margin: 30px 0;
+}
 
 
 /***************
@@ -88,9 +94,18 @@ Navigation
 **************** 
 **************** */
 
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
 
-
-
+.navigation a {
+	text-decoration: none;
+	align-self: center;
+	color: grey;
+	opacity: 0.6;
+}
 
 
 /***************
@@ -100,3 +115,215 @@ Header
 
 **************** 
 **************** */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	margin-top: 60px;
+}
+
+header h1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 66px;
+	margin-top: 70px;
+	margin-left: 60px;
+	width: 33%;
+}
+
+.header-text-top {
+	margin-bottom: -70px;
+}
+
+.header-text {
+	margin-bottom: -70px;
+}
+
+.header-bottom-text {
+	margin-bottom: -60px;
+}
+
+.flex-item-btn {
+	border: 1px solid black;
+	padding: 5px 40px;
+	width: 50%;
+}
+.header-img {
+	width: 40%;
+	height: 100%;
+}
+
+/***************
+**************** 
+
+top-content
+
+**************** 
+**************** */
+
+.middle-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.left-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-content h2 {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+/***************
+**************** 
+
+banner-image
+
+**************** 
+**************** */
+
+
+
+
+
+
+/***************
+**************** 
+
+features
+
+**************** 
+**************** */
+
+.features {
+	display: flex;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.bottom-content {
+	width: 33%;
+}
+
+
+/***************
+**************** 
+
+Contact
+
+**************** 
+**************** */
+
+.number {
+	margin: 15px 0;
+}
+
+
+/***************
+**************** 
+
+footer
+
+**************** 
+**************** */
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0;
+	font-size: 12px;
+}
+
+/***************
+**************** 
+
+hero-img
+
+**************** 
+**************** */
+
+.hero-img img {
+	margin-top: 20px;
+}
+
+/***************
+**************** 
+
+services-content
+
+**************** 
+**************** */
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+
+
+/***************
+**************** 
+
+Cards 
+
+**************** 
+**************** */
+.cards {
+	display: flex;	
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.card-layout {
+	background-color: #F4F3F4;
+	border: 1px solid #B1B2B1;
+	width: 48%;
+	padding: 20px;
+}
+
+.card-layout button {
+	border: 1px solid #B1B2B1;
+	padding: 5px 15px;
+	margin-top: 15px;
+}
+
+/***************
+**************** 
+
+bottom-content-services
+
+**************** 
+**************** */
+
+.bottom-content-services {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.service-item {
+	width: 46%;
+}
+
+.service-item li {
+	list-style-type: square;
+	margin: 15px 0 0 18px;
+	font-size: 14px;
+}
+
+
+
+.services-info-img {
+	width: 48%;
+	height: 50%;
+
+}
